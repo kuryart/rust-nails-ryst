@@ -106,6 +106,6 @@ app-container:
     COPY +build/$APP_EXE_NAME axum-server
     # Place assets in a build folder as that's where statics is expecting them.
     COPY --dir +npm-build/dist /build/$PIPELINE_FOLDER/
-    COPY --dir $PIPELINE_FOLDER/images /build/$PIPELINE_FOLDER/images
+    # COPY --dir $PIPELINE_FOLDER/images /build/$PIPELINE_FOLDER/images
     ENTRYPOINT ["./axum-server"]
     SAVE IMAGE --push $APP_IMAGE_NAME
