@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package api;
+
+message User {
+
+}
+
+service Users {
+    rpc GetUsers(GetUsersRequest) returns (GetUsersResponse);
+}
+
+message GetUsersRequest {
+}
+
+message GetUsersResponse {
+    repeated User users = 1;
+}
+
+message Fortune {
+    uint32 id = 1;
+    string email = 2;
+}
