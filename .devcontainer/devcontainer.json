@@ -27,7 +27,8 @@
 				"serayuzgur.crates",
 				"Codium.codium",
 				"zxh404.vscode-proto3",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"earthly.earthfile-syntax-highlighting"
 			]			
 		}
 	},
