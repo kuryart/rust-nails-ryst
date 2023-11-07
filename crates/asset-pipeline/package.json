@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
+    "parcel": "^2.10.2"
+  },
+  "scripts": {
+    "start": "parcel watch ./index.ts",
+    "stop": "parcel stop",
+    "release": "parcel build ./index.ts"
+  }
+}
