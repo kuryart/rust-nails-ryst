@@ -2,7 +2,7 @@
 # Fast, repeatable CI/CD with an instantly familiar syntax – like Dockerfile and Makefile had a baby.
 
 # Set the version
-VERSION 0.6
+VERSION 0.6.0
 
 # We use our devcontainer as it has all the tools we need
 FROM purtontech/rust-on-nails-devcontainer:1.1.2
