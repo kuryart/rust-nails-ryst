@@ -31,7 +31,7 @@ USER root
 
 # Set up for docker in docker https://github.com/earthly/earthly/issues/1225
 # DO github.com/earthly/lib+INSTALL_DIND
-# DO github.com/earthly/lib+INSTALL_DIND
+DO github.com/earthly/lib+INSTALL_DIND
 
 USER vscode
 
